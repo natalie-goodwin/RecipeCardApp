@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container">
+    <br>
+
+    <div class="card"> <!--opening card div-->
+        <div class="card-body"> <!--opening card-body div-->
+            <div class="row"> <!--opening row div-->
+                <div class="col-sm"> <!--opening col-sm div-->
+                    <div class="form-group"> <!--opening form-group div-->
+                        <label for="new-team-name">Team Name</label>
+                        <input type="text" class="form-control" id="new-team-name">
+                    </div> <!--closing form-group div-->
+                </div> <!--closing col-sm div-->
+            </div> <!--closing row div-->
+            <div>
+                <button id="new-team" class="btn btn-primary form-control">Create</button>
+            </div> <!--closing button div-->
+        </div> <!--closing card-body div-->
+    </div> <!--closing card div--> <br>
+
+    <div id="teams"> <!--opeing teams div; exists for JavaScript 
+        creation-->
+
+    </div> <!--closing teams div; exists for JavaScript creation-->    
+
+
+
+<!--Scripts-->
+<script src="team.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

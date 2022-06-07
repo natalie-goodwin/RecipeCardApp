@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DOM - Document Object Model</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--Document Object Model: When a browser loads a webpage it organizes HTML elements into a DOM; 
+            the DOM is a tree-like structure that we can traverse through using JavaScript to 
+            locate specific elements which can be found by their, IDs, tag names, class names, or using 
+            css selectors. Once we find an element in the DOM using JavaSCript, we can remove, change, or add to it; 
+            that includes the ability to remove and add children elements and allows us to build dynamic  functionality
+            to our pages -->
+
+            <!--Finding Elements in the DOM-->
+
+            <!--Finding an element by its ID 
+
+            get element by ID method: takes a string that 
+            represents the ID of the element; when the element
+            with the given ID is found in the DOM the 
+            element itself is the returned value of the 
+            method  -->
+
+         <!--<button id="my-button">Button 1</button>
+
+           Find element by tag names: an element is
+            denoted in HTML by its tags; the tag would be 
+            whatever the text in the HTML element is-->
+
+         <!-- <button>Button 2</button>
+            <button class="my-class">Button 3</button>
+           <button>Button 4</button>
+            <button class="my-class">Button 5</button>
+            
+            Find element by class name; classes are used 
+                to identify multiple elements that share the 
+                same style; when we find elements by class we 
+                say get elementS becasue we find multiple elements-->
+
+            <!--Find elements by CSS selector: use DOMs 
+                "query selector all" method and pass in a 
+                string that is a valid CSS selector: how 
+                we would write a CSS rule to style 
+                specific elements; any element that would 
+                typically be styled by a given CSS selector
+                will be returned from the "query sleector all" 
+                method-->    
+
+           <!--<h1 class="my-class">Hello World</h1>-->
+            
+            <!--Interacting with the DOM: -->
+
+          <!-- <p id="content">Hello.</p>
+            <button id="btn">Change Value</button>
+            <button id="remove">Remove paragraph from DOM</button>-->
+           
+            <div id="paragraphs">
+                <p id="content">Hello.</p>
+            </div>
+            <button id="btn">Change Value</button>
+            <button id="remove">Remove paragraph from DOM</button>
+            <button id="add">Add New paragraph.</button>
+            <input type="text" id="new-text">
+
+            <!--<div id="paragraphs">
+                <p id="content">Hello.</p>
+            </div>
+            <button id="btn">Change Value</button> <br>
+            <input type="remove-id">
+            <button id="remove">Remove paragraph from DOM</button> <br>
+            <input type="text" id="new-text">
+            <button id="add">Add New paragraph</button>-->
+            
+
+
+            
+            <script src="index.js"></script>
+    </body>
+</html>
